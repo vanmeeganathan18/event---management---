@@ -1,0 +1,45 @@
+body {
+    background: linear-gradient(135deg, #1e1e2f, #121212);
+    color: white;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+/* Cards */
+.card {
+    background: rgba(255,255,255,0.08);
+    backdrop-filter: blur(10px);
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 4px 30px rgba(0,0,0,0.6);
+    transition: 0.3s;
+}
+
+.card:hover {
+    transform: scale(1.03);
+}
+
+/* Buttons */
+.btn {
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    transform: scale(1.05);
+}
+
+/* Inputs */
+input {
+    border-radius: 8px !important;
+}
+
+/* Table */
+table {
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Headings */
+h2, h3 {
+    font-weight: bold;
+}
